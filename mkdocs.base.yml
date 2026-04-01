@@ -1,0 +1,9 @@
+site_name: Enterprise Documentation Hub
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - redirects:
+      redirect_maps: {}

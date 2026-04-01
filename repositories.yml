@@ -1,11 +1,11 @@
 repositories:
-  - id: repo-a
-    slug: repo-a
-    repository: your-org/private-repo-a
-    local_example_path: examples/private-repo-a
-    checkout_path: .cache/repos/repo-a
-    remote_url_env: REPO_A_URL
-    required: false
+  - id: fair-maturity-matrix
+    slug: fair-maturity-matrix
+    repository: chris-day/FAIR-Maturity-Matrix
+    local_example_path: examples/fair-maturity-matrix
+    checkout_path: .cache/repos/fair-maturity-matrix
+    remote_url_env: FAIR_MATURITY_MATRIX_URL
+    required: true
   - id: repo-b
     slug: repo-b
     repository: your-org/private-repo-b

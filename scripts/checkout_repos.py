@@ -67,7 +67,7 @@ def main():
                     continue
 
         try:
-            run(["git", "-C", str(target), "checkout", "--force", ref])
+            run(["git", "-c", "advice.detachedHead=false", "-C", str(target), "checkout", "--force", ref])
         except subprocess.CalledProcessError:
             msg = f"Failed to checkout ref {ref} for {slug}"
             if required and not bootstrap:

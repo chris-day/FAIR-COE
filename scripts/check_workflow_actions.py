@@ -12,8 +12,8 @@ BANNED = {
 RECOMMENDED = {
     "actions/checkout": "v5",
     "actions/setup-python": "v6",
-    "actions/upload-pages-artifact": "v3",
-    "actions/deploy-pages": "v4",
+    "actions/upload-pages-artifact": "v4",
+    "actions/deploy-pages": "v5",
 }
 USES_RE = re.compile(r"uses:\s*([^\s#]+)")
 

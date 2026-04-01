@@ -7,3 +7,9 @@ plugins:
   - search
   - redirects:
       redirect_maps: {}
+  - minify:
+      minify_html: true
+  - graph:
+      name: "title"
+  - macros:
+      on_error_fail: true
